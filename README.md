@@ -15,7 +15,7 @@ the program uses Valves software called Proton and that program makes windows ap
 ## How to install?
 
 First, get a player bootstarper .exe file from Better 16 Website. 
-Link for bootstraper : https://better16.xyz/install/player
+Link for bootstraper : https://better16.wtf/install/player
 
 And install it using wine in terminal:
 ```terminal
@@ -28,7 +28,7 @@ and wait until the better 16 client installs...
 ### Download .sh scripts and do terminal stuff
 
 Download better16-bridge.sh from releases.
-(https://github.com/Pepca013/Better16-for-Linux-/releases/tag/Client-Scripts/latest)
+(https://github.com/Pepca013/Better16-for-Linux-/releases/tag/0.2b/latest)
 and open the .sh file and replace -YOURNAME- to your pc username
 and put the .sh file to /home/YOURNAME/.local/
 
@@ -84,4 +84,24 @@ update-desktop-database ~/.local/share/applications
 ```
 and congrats! now try to play a game in better 16!
 
+> [!TIP]
+> You can use gamemode to get more FPS on better 16!
+>
+> Requires better16-bridge.sh 0.2b and higher
+
+# How to update?
+
+## Better 16 Client
+use better 16 installer using wine 
+```terminal
+wine RobloxPlayerLauncher.exe
+```
+one its updated, edit the bridge .sh script 
+and change toe cd line and change the version folder ig
+and save
+
+## Bridge .sh script
+download the latest script from the releases and replace -YOURNAME- (or pepca if i forgot) to your user name and replace that old one
+
+gg fking easy
 Made by Pepca013
