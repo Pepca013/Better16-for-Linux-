@@ -52,7 +52,8 @@ gamemoderun "$PROTON_PATH" run RobloxPlayerLauncher.exe "$1"
 
 # version 0.2b
 ```
-REMINDER!!: Change "-YOURNAME-" to your user name! or else it will not work.
+> [!IMPORTANT]
+> REMINDER!!: Change "-YOURNAME-" to your user name! or else it will not work.
 
 and use Ctrl-0, Enter and Ctrl-X to save.
 
