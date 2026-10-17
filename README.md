@@ -38,17 +38,19 @@ nano ~/.local/better16-bridge.sh
 ```
 and paste this:
 ```bash
-# version 0.1b
-export WINEPREFIX="/home/-YOURNAMME-/.wine"
-export STEAM_COMPAT_CLIENT_INSTALL_PATH="/home/-YOURNAMME-/.local/share/Steam"
-export STEAM_COMPAT_DATA_PATH="/home/-YOURNAMME-/.wine"
+#!/bin/bash
+export WINEPREFIX="/home/-YOURNAME-/.wine"
+export STEAM_COMPAT_CLIENT_INSTALL_PATH="/home/-YOURNAME-/.local/share/Steam"
+export STEAM_COMPAT_DATA_PATH="/home/-YOURNAME-/.wine"
 export SteamAppId="218620" 
 
-PROTON_PATH="/home/-YOURNAMME-/.local/share/Steam/steamapps/common/Proton 10.0/proton"
+PROTON_PATH="/home/-YOURNAME-/.local/share/Steam/steamapps/common/Proton 10.0/proton"
 
-cd "/home/-YOURNAMME-/.wine/drive_c/Program Files (x86)/Better16/Versions/version-478697a0a9b946b9/"
+cd "/home/-YOURNAME-/.wine/drive_c/Program Files (x86)/Better16/Versions/version-294a9bee51c34d90/"
 
-"$PROTON_PATH" run RobloxPlayerLauncher.exe "$1"
+gamemoderun "$PROTON_PATH" run RobloxPlayerLauncher.exe "$1"
+
+# version 0.2b
 ```
 REMINDER!!: Change "-YOURNAME-" to your user name! or else it will not work.
 
